@@ -1,0 +1,93 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top:100px ;
+    background: linear-gradient(to right, #F5DDFF,#FFFFFF,#FDF2F8);
+    position: relative;
+    z-index: 1;
+
+    .CarouselPh{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .CrPotencial{
+            font-size: 72px;
+            font-weight: 800;
+            font-family: "Inter", sans-serif;
+            text-align: center;
+           
+
+            .gradient-text{
+            background: linear-gradient(to right, #571483, #FF3DC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+               
+            }
+
+           
+        }
+        .description{
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+            text-align: center;
+            color: #6B7280;
+            line-height: 28px;
+
+        }
+        
+    }
+
+    .featurebtn{
+        margin: 10px;
+        font-size: 18px;
+        font-family: "Inter" , sans-serif;
+
+        .dcFeturesbtn{
+            background-color: var(--primary-color);
+            color: var(--text-secondary-color);
+            box-shadow:0px 0px 30px rgba(137, 43, 226, 0.4) ;
+            margin: 10px;
+            padding: 10px 15px;
+        }
+        .demobtn{
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border: 1px solid #FF3DC4;
+            margin: 10px;
+            padding: 10px 15px;
+            box-shadow:0px 5px 30px #0000001A ;
+
+        }
+
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(171, 122, 191,0.2);
+        border-radius: 50%;
+        position: absolute;  /* Fixed colon typo */
+        z-index: 2;
+        top: 40%; /* Adjust as needed */
+        left: 0%; 
+
+    }
+    
+    .circle_2{
+         width: 160px;
+        height: 160px;
+        background-color: rgb(171, 122, 191,0.2);
+        border-radius: 50%;
+        position: absolute;  /* Fixed colon typo */
+        z-index: 2;
+        top: 60%; /* Adjust as needed */
+        right: 0%; 
+
+    }
+}
