@@ -1,1 +1,24 @@
-<p>about-us works!</p>
+
+<div class="container container-sm container-md container-lg">
+    <div class="chooseTb">
+        <P class="title-text"> 
+            Why Choose Talent Boozt?
+        </P>
+        <p class="body-text">
+            We are committed to empowering your career journey with cutting-edge technology and
+            personalized support. Our platform is designed to make your job search efficient,
+            effective, and exciting.
+        </p>     
+    </div>
+    <div class="cards">
+        <app-card
+        *ngFor="let card of cards"
+        [title]="card.title"
+        [description]="card.description"
+        [image]="card.image"
+        [link]="card.link"
+        ></app-card>
+       
+
+    </div>
+</div>

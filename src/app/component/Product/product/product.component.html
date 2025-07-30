@@ -1,1 +1,22 @@
-<p>product works!</p>
+<div class="container container-sm container-md container-lg">
+    <div class="product">
+        <P class="title-text"> 
+            Powerful Features to Boost Your Search
+        </P>
+        <p class="body-text">
+            Discover the tools that make Talent Boozt the ultimate career companion. Each feature is
+            crafted to give you a competitive edge.
+        </p>     
+    </div>
+    <div class="cards">
+        <app-card
+        *ngFor="let card of cards"
+        [title]="card.title"
+        [description]="card.description"
+        [image]="card.image"
+        [link]="card.link"
+        ></app-card>
+       
+
+    </div>
+</div>
