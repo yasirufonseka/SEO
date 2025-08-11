@@ -1,0 +1,18 @@
+
+<div class="career-card container-md m-3">
+  
+    <div class="card-title">
+      <img [src]="image" class="crdImg me-2 mb-2"  alt="Icon">
+      <h5 class="crdTitle">{{title}}</h5>
+    </div>
+    <div class="crdBody">
+    <p>{{description}}</p>
+    <ul>
+      <li *ngFor="let item of items">{{item}}</li>
+      
+    </ul>
+    <a [href]="link">
+    <button [ngClass]="'btnColor-'+ btnColor" class="btn-style  " >{{btnTitle}}</button>
+    </a>
+    </div>
+</div>

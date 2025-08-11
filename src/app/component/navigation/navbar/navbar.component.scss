@@ -1,8 +1,5 @@
 .custom-active {
-  background-color: var(--primary-color);
-  color: var(--text-secondary-color) ;
-  border-radius: 8px;
-  padding: 6px 12px;
+
 }
 
 .custom-button {
@@ -10,9 +7,14 @@
   color: var(--text-secondary-color);
   border-radius: 8px;
   font-weight: 500;
-  //transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .custom-button:hover {
   background-color: #a36cb1;
+}
+
+.logoImg{
+  width: 160px;
+  height: 65px;
 }

@@ -1,11 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
+    
     --primary-color:#ab7abf;
     --secondary-color:#F9FAFB;
-
 
     --text-primary-color:#1F2937;
     --text-secondary-color:#F9FAFB;
     --text-third-color: #6B7280;
+
+}
+
+.theme-light{
+    --primary-shade-300:#F5DDFF;
+    --primary-shade-200:#FDF2F8;
+    --primary-shade-100:#FFFFFF;
+}
+.theme-dark{
+
+    --primary-shade-300:#111827;
+    --primary-shade-200:#1E293B;
+    --primary-shade-100:#312E81;
+
 
 }

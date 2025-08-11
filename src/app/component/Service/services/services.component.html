@@ -1,1 +1,23 @@
-<p>services works!</p>
+<div class="container container-sm container-md container-lg">
+    <div class="service">
+        <P class="title-text"> 
+             Services Tailored For Your Success
+        </P>
+        <p class="body-text">
+            From personalized coaching to profile optimization, we offer a suite of services designed
+            to elevate your career.
+        </p>     
+    </div>
+    <div class="cards">
+       <app-card-3 *ngFor="let service of services"
+       [title]="service.title"
+       [description]="service.description"
+       [image]="service.image"
+       [link]="service.link"
+       [items]="service.items"
+       [btnTitle]="service.btnTitle"
+    [btnColor]="service.btnColor"></app-card-3>
+     
+
+    </div>
+</div>

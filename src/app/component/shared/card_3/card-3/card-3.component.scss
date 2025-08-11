@@ -1,0 +1,144 @@
+.career-card{
+  display: flex;
+  width: 390px;
+  height: auto;
+  padding: 30px;
+  font-family: "Inter" , sans-serif;
+  flex-direction: column;
+  border-radius: 12px ;
+  box-shadow:0px 10px 15px -3px #0000001A  ;
+  text-align: left;
+
+  .card-title{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    text-align: left;
+   
+    .crdImg{
+      width: 54px;
+      height: 60px;
+      object-fit: cover;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+
+    }
+
+    .crdTitle{
+      font-size: 22px;
+      color: var(--text-primary-color);
+    }
+  }
+  .crdBody{
+    font-size: 14px;
+    width: 349px;
+    justify-content: center;  
+    align-items: center;
+    color: var(--text-third-color);
+    
+  .btn-style{
+    width: 261px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+  
+    
+
+  }
+  .btn-style:hover{
+    transition: background-color 0.5s ease 0.5ms;
+    
+     
+  }
+   
+  .btnColor-blue{
+    border-color:  #001F9D;
+    background-color: #ffffff;
+    color:#001f9d ;
+    box-shadow: 0 4px 20px #a8a8a870;
+    
+  
+  }
+
+  .btnColor-blue:hover {
+    background-color: #001f9d;
+    color: #ffffff;
+   
+  
+  
+
+}
+.btnColor-red{
+    border-color: #770002;
+    background-color: #ffffff;
+    color:#770002 ;
+    box-shadow: 0 4px 20px #a8a8a870;
+    
+  }
+
+  .btnColor-red:hover {
+  background-color: #770002;
+  color: #ffffff;
+  
+  
+}
+.btnColor-brown{
+    border-color: #875E00;
+    background-color: #ffffff;
+     color:#875E00 ;
+    box-shadow: 0 4px 20px #a8a8a870;
+  }
+
+  .btnColor-brown:hover {
+  background-color: #875E00;
+  color: #ffffff;
+  
+  
+}
+.btnColor-green{
+    border-color:  #00894E;
+    background-color: #ffffff;
+     color:#00894E ;
+    box-shadow: 0 4px 20px #a8a8a870;
+  }
+
+  .btnColor-green:hover {
+  background-color: #00894E;
+  color: #ffffff;
+  
+  
+}
+.btnColor-purple{
+    border-color:  #54007B;
+    background-color: #ffffff;
+     color:#54007B ;
+   box-shadow: 0 4px 20px #a8a8a870;
+  }
+
+  .btnColor-purple:hover {
+  background-color: #54007B;
+  color: #ffffff;
+
+  
+}
+.btnColor-deepRed{
+    border-color:  #AC0046 ;
+    background-color: #ffffff;
+    color:#AC0046 ;
+   box-shadow: 0 4px 20px #a8a8a870;
+  }
+
+  .btnColor-deepRed:hover {
+  background-color: #AC0046 ;
+  color: #ffffff;
+
+ 
+}
+
+
+}
+
+}
+
+
