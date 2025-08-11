@@ -1,0 +1,35 @@
+.container{
+    font-family: 'Inter' , sans-serif;
+    height: auto;
+    background-color:#F9FAFB ;
+    padding-top: 80px ;
+    
+
+    .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+
+    }
+    .testimonial{
+        width: 750px;
+
+        .title-text{
+            font-size: 36px;
+            font-weight: 700;
+            color: var( --primary-color);
+            
+
+        }
+        .body-text{
+            font-size: 18px;
+            font-weight: 400;
+            color: var( --text-third-color);
+        }
+    }
+
+}

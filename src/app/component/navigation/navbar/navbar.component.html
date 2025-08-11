@@ -2,30 +2,30 @@
   <div class="container-fluid d-flex justify-content-between align-items-center w-100">
     
    
-    <a class="navbar-brand fw-bold" routerLink="/">
-        <img src="" alt="Talent Boozt" srcset="">
+    <a class="navbar-brand fw-bold" [routerLink]="[]" fragment="home">
+        <img src="images/logo.png" alt="Talent Boozt" srcset="" class="img-fluid logoImg">
     </a>
 
     
     <div class="d-none d-lg-block flex-grow-1">
       <ul class="navbar-nav justify-content-center d-flex gap-3 m-0">
-        <li class="nav-item">
-          <a class="nav-link custom-active" routerLink="/home">Home</a>
+        <li class="nav-item ">
+          <a class="nav-link custom-active" [routerLink]="[]" fragment="home" routerLinkActive="active"    [routerLinkActiveOptions]="{exact: true}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/about">About Us</a>
+          <a class="nav-link" [routerLink]="[]"  fragment="about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/products">Products</a>
+          <a class="nav-link" [routerLink]="[]" fragment="product" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/services">Services</a>
+          <a class="nav-link" [routerLink]="[]" fragment="Service" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/testimonials">Testimonials</a>
+          <a class="nav-link" [routerLink]="[]" fragment="testimonial" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contact">Contact</a>
+          <a class="nav-link" [routerLink]="[]" fragment="contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Contact</a>
         </li>
       </ul>
     </div>

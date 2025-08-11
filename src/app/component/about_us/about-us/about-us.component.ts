@@ -15,7 +15,7 @@ export class AboutUsComponent {
   cards :aboutInteface[]= [{
     title: "Innovative Platform",
     description: "Experience a user-friendly interface packed with powerful features to streamline your job hunt and career development.",
-    image: "",
+    image: "images/Innovative Platform.png",
     link: ''
 
 
@@ -23,13 +23,13 @@ export class AboutUsComponent {
   {
      title:"Expert Guidance",
     description:"Access resources, tips, and personalized coaching from industry experts to navigate your career path confidently.",
-    image:'',
+    image:'images/Expert Guidance.png',
     link:''
   },
   {
     title:"Vast Network",
     description:"Connect with top employers, recruiters, and a supportive community of professionals to expand your opportunities.",
-    image:'',
+    image:'images/Vast Network.png',
     link:''
   }
 
