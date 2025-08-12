@@ -11,5 +11,10 @@ import { RouterLink, RouterModule } from '@angular/router';
 })
 export class NavbarComponent {
 
+  
+toggleMenu() {
+throw new Error('Method not implemented.');
+}
+
    
 }

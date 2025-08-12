@@ -23,9 +23,9 @@ testimonials: testimonialInterface[]=[ {
     quote: `"Talent Boozt's AI Resume Builder was a game-changer. I got three interview calls within a week of using my new resume! The platform is incredibly intuitive."`
   },
   {
-    name: 'Maria Rodriguez',
-    title: 'UX Designer',
-    quote: `"Talent Boozt's AI Resume Builder was a game-changer. I got three interview calls within a week of using my new resume! The platform is incredibly intuitive."`
+    name: 'David Chen',
+    title: 'Software Engineer',
+    quote: "'The Smart Job Matching feature is unbelievably accurate. It found roles I wouldn't have discovered on my own. Talent Boozt truly understands my skills and preferences.'"
   }];
 
 }

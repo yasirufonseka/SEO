@@ -35,3 +35,49 @@
     }
     
 }
+
+ @media (max-width: 768px) {
+
+    .card{
+    width: 90%;      /* make card almost full width */
+    height: auto;    /* allow height to grow based on content */
+    flex-direction: column;
+    padding: 20px;
+
+    .card-title {
+      font-size: 18px;
+    }
+
+    .card-desc {
+      font-size: 14px;
+    }
+
+    .image {
+      width: 50px;
+      height: 54px;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* ===== Responsive for small phones ===== */
+  @media (max-width: 480px) {
+    .card{
+    width: 100%;
+    margin: 8px 0;
+    padding: 15px;
+
+    .card-title {
+      font-size: 16px;
+    }
+
+    .card-desc {
+      font-size: 13px;
+    }
+
+    .image {
+      width: 40px;
+      height: 44px;
+    }
+  }
+}
+ }

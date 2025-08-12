@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm px-4">
-  <div class="container-fluid d-flex justify-content-between align-items-center w-100">
+  <div class="container-fluid d-flex justify-content-between align-items-center w-100 ">
     
    
     <a class="navbar-brand fw-bold" [routerLink]="[]" fragment="home">
@@ -9,8 +9,8 @@
     
     <div class="d-none d-lg-block flex-grow-1">
       <ul class="navbar-nav justify-content-center d-flex gap-3 m-0">
-        <li class="nav-item ">
-          <a class="nav-link custom-active" [routerLink]="[]" fragment="home" routerLinkActive="active"    [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <li class="nav-item custom-active ">
+          <a class="nav-link fw-semibold navlink " [routerLink]="[]" fragment="home" routerLinkActive="active"    [routerLinkActiveOptions]="{exact: true}">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="[]"  fragment="about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >About Us</a>
@@ -40,7 +40,8 @@
    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
+      aria-expanded="false" aria-label="Toggle navigation"
+      (click)="toggleMenu()">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
