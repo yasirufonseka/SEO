@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     padding-top:100px ;
-    background: linear-gradient(to right, #F5DDFF,#FFFFFF,#FDF2F8);
+    background: linear-gradient(to right,  var(--primary-shade-300),var(--primary-shade-100),var( --primary-shade-200));
     position: relative;
     z-index: 1;
 
@@ -20,6 +20,7 @@
             font-weight: 800;
             font-family: "Inter", sans-serif;
             text-align: center;
+            color:var(--text-primary-color) ;
            
 
             .gradient-text{
@@ -50,13 +51,13 @@
 
         .dcFeturesbtn{
             background-color: var( --primary-color);
-            color: var(--text-secondary-color);
+            color: var(--secondary-color);
             box-shadow:0px 0px 30px rgba(137, 43, 226, 0.4) ;
             margin: 10px;
             padding: 10px 15px;
         }
         .demobtn{
-            background-color: var(--secondary-color);
+            background-color: transparent;
             color: var(--primary-color);
             border: 1px solid #FF3DC4;
             margin: 10px;
@@ -90,4 +91,74 @@
         right: 0%; 
 
     }
+}
+
+ /* ===== Mobile Responsiveness ===== */
+  @media (max-width: 820px) {
+
+    .carousel{
+    height: auto;
+    padding-top: 50px;
+
+    .CarouselPh {
+      .CrPotencial {
+        font-size: 36px; /* Smaller headline for mobile */
+      }
+
+      .description {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0 15px; /* Side padding for readability */
+      }
+    }
+
+    .featurebtn {
+      font-size: 16px;
+
+      .dcFeturesbtn,
+      .demobtn {
+        padding: 8px 12px;
+        font-size: 14px;
+      }
+    }
+
+    .circle {
+      width: 60px;
+      height: 60px;
+      top: 30%;
+    }
+
+    .circle_2 {
+      width: 100px;
+      height: 100px;
+      top: 70%;
+    }
+  }
+
+  /* Extra small devices */
+  @media (max-width: 480px) {
+    .CarouselPh {
+      .CrPotencial {
+        font-size: 28px;
+      }
+
+      .description {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    .featurebtn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .dcFeturesbtn,
+      .demobtn {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
 }

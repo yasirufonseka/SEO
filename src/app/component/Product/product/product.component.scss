@@ -1,4 +1,5 @@
-.container{
+.containers{
+    background-color: var(--primary-bg-200);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,7 +9,7 @@
     border: none;
     font-family: 'Inter' , sans-serif;
     height: auto;
-    background-color:#F9FAFB ;
+   
     padding-top: 80px ;
     
 

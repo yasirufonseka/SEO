@@ -1,14 +1,16 @@
-.container{
+.containers{
+   background-color: var( --primary-bg-100);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     text-align: center;
+    margin: 0;
+    width: 100dvw;
     border: none;
     font-family: 'Inter' , sans-serif;
-    height: 670px;
+    height: auto;
 
     .cards{
     display: flex;
@@ -35,3 +37,45 @@
     }
 
 }
+ @media (max-width:820px) {
+    .container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* stack items vertically */
+    
+
+    .chooseTb {
+      width: 90%; /* shrink table width for smaller devices */
+      .title-text {
+        font-size: 28px;
+      }
+      .body-text {
+        font-size: 16px;
+      }
+    }
+
+    .cards {
+      flex-direction: column; /* stack cards */
+      align-items: center;
+      
+    }
+  }
+
+  /* ===== Small Phones ===== */
+  @media (max-width: 480px) {
+    .chooseTb {
+      width: 100%;
+      padding: 0 10px; /* add side padding for text readability */
+      .title-text {
+        font-size: 22px;
+      }
+      .body-text {
+        font-size: 14px;
+      }
+    }
+
+    .cards {
+      gap: 15px; /* reduce spacing for small screens */
+    }
+  }
+ }

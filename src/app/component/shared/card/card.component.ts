@@ -1,9 +1,9 @@
-import { NgFor } from '@angular/common';
+import { NgClass, NgFor, NgStyle } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
-  imports: [],
+  imports: [NgStyle],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss'
 })
@@ -13,5 +13,6 @@ export class CardComponent {
   @Input() description:String='';
   @Input() image:any;
   @Input() link:any;
+  @Input() bgColor:any;
 
 }
