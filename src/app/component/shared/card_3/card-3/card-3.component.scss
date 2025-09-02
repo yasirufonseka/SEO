@@ -1,4 +1,4 @@
-.career-card {
+.containers {
   display: flex;
   width: 390px;
   height: auto;
@@ -8,6 +8,7 @@
   border-radius: 12px;
   box-shadow: 0px 10px 15px -3px #0000001A;
   text-align: left;
+  background-color: var(--primary-bg-200);
 
   .card-title {
     display: flex;
@@ -15,6 +16,7 @@
     align-items: center;
     text-align: left;
     gap: 10px; /* added spacing between image and title */
+    
 
     .crdImg {
       width: 54px;
@@ -37,12 +39,15 @@
     color: var(--text-third-color);
 
     .btn-style {
+      background-color: var(--primary-bg-200);
       width: 261px;
       height: 50px;
       margin-left: 20px;
       border: 1px solid;
       border-radius: 8px;
       cursor: pointer;
+     
+      
     }
 
     .btn-style:hover {
@@ -51,10 +56,9 @@
 
     /* ===== Color button styles remain unchanged ===== */
     .btnColor-blue {
-      border-color: #001F9D;
-      background-color: #ffffff;
-      color: #001f9d;
-      box-shadow: 0 4px 20px #a8a8a870;
+      border-color:var(--text-color-001);
+      color:var(--text-color-001);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-blue:hover {
       background-color: #001f9d;
@@ -62,10 +66,9 @@
     }
 
     .btnColor-red {
-      border-color: #770002;
-      background-color: #ffffff;
-      color: #770002;
-      box-shadow: 0 4px 20px #a8a8a870;
+      border-color:var(--text-color-002);
+      color:var(--text-color-002);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-red:hover {
       background-color: #770002;
@@ -73,10 +76,9 @@
     }
 
     .btnColor-brown {
-      border-color: #875E00;
-      background-color: #ffffff;
-      color: #875E00;
-      box-shadow: 0 4px 20px #a8a8a870;
+     border-color:var(--text-color-003);
+      color:var(--text-color-003);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-brown:hover {
       background-color: #875E00;
@@ -84,10 +86,9 @@
     }
 
     .btnColor-green {
-      border-color: #00894E;
-      background-color: #ffffff;
-      color: #00894E;
-      box-shadow: 0 4px 20px #a8a8a870;
+      border-color:var(--text-color-004);
+      color:var(--text-color-004);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-green:hover {
       background-color: #00894E;
@@ -95,10 +96,9 @@
     }
 
     .btnColor-purple {
-      border-color: #54007B;
-      background-color: #ffffff;
-      color: #54007B;
-      box-shadow: 0 4px 20px #a8a8a870;
+      border-color:var(--text-color-005);
+      color:var(--text-color-005);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-purple:hover {
       background-color: #54007B;
@@ -106,10 +106,9 @@
     }
 
     .btnColor-deepRed {
-      border-color: #AC0046;
-      background-color: #ffffff;
-      color: #AC0046;
-      box-shadow: 0 4px 20px #a8a8a870;
+     border-color:var(--text-color-006);
+      color:var(--text-color-006);
+      box-shadow: 0 2px 4px #a8a8a870;
     }
     .btnColor-deepRed:hover {
       background-color: #AC0046;

@@ -5,7 +5,7 @@
     align-items: center;
     height: 100dvh;
     padding-top:100px ;
-    background: linear-gradient(to right, #F5DDFF,#FFFFFF,#FDF2F8);
+    background: linear-gradient(to right,  var(--primary-shade-300),var(--primary-shade-100),var( --primary-shade-200));
     position: relative;
     z-index: 1;
 
@@ -20,6 +20,7 @@
             font-weight: 800;
             font-family: "Inter", sans-serif;
             text-align: center;
+            color:var(--text-primary-color) ;
            
 
             .gradient-text{
@@ -50,13 +51,13 @@
 
         .dcFeturesbtn{
             background-color: var( --primary-color);
-            color: var(--text-secondary-color);
+            color: var(--secondary-color);
             box-shadow:0px 0px 30px rgba(137, 43, 226, 0.4) ;
             margin: 10px;
             padding: 10px 15px;
         }
         .demobtn{
-            background-color: var(--secondary-color);
+            background-color: transparent;
             color: var(--primary-color);
             border: 1px solid #FF3DC4;
             margin: 10px;

@@ -1,11 +1,13 @@
-.container{
+.containers{
+   background-color: var( --primary-bg-100);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     text-align: center;
+    margin: 0;
+    width: 100dvw;
     border: none;
     font-family: 'Inter' , sans-serif;
     height: auto;

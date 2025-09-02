@@ -10,10 +10,11 @@ import { FooterComponent } from "../../footer/footer/footer.component";
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 import { ViewportScroller } from '@angular/common';
+import { CarouselComponent } from "../../Carousel/carousel/carousel.component";
 
 @Component({
   selector: 'app-home',
-  imports: [NavbarComponent, AboutUsComponent, ProductComponent, ServicesComponent, TestimonialsComponent, CardAdComponent, ContactComponent, FooterComponent],
+  imports: [NavbarComponent, AboutUsComponent, ProductComponent, ServicesComponent, TestimonialsComponent, CardAdComponent, ContactComponent, FooterComponent, CarouselComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   standalone:true

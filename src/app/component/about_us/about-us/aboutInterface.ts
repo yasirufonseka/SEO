@@ -3,4 +3,5 @@ export interface aboutInteface{
     description:String;
     image:any;
     link:any;
+    
 }

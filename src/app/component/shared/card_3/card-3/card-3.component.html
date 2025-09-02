@@ -1,5 +1,5 @@
 
-<div class="career-card container-md m-3">
+<div class="career-card container-md m-3 containers">
   
     <div class="card-title">
       <img [src]="image" class="crdImg me-2 mb-2"  alt="Icon">
@@ -12,7 +12,7 @@
       
     </ul>
     <a [href]="link">
-    <button [ngClass]="'btnColor-'+ btnColor" class="btn-style  " >{{btnTitle}}</button>
+    <button class="btn-style  " [ngClass]="'btnColor-'+ btnColor"  >{{btnTitle}}</button>
     </a>
     </div>
 </div>

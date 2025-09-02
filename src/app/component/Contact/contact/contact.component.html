@@ -1,10 +1,10 @@
 <!-- Header -->
-<div class="contact-header">
+<div class="contact-header" [ngStyle]="{'background-color': bgColor}">
     <h1>Get in Touch With Us</h1>
     <p>Have questions, need support, or want to learn more about our enterprise solutions? Our team
         is here to help.</p>
-</div>
-<div class="contact-container p-3">
+
+<div class="contact-containers p-3"  >
     <!-- Form Section -->
     <div class="form-section">
         <form id="contactForm">
@@ -33,7 +33,7 @@
                     placeholder="How can we help you today?" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary mb-4">
                 Send Message <i class="fas fa-paper-plane ms-2"></i>
             </button>
         </form>
@@ -77,3 +77,4 @@
             </div>
         </div>
     </div>
+</div>

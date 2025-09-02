@@ -1,8 +1,9 @@
-.container {
+.containers {
   font-family: 'Inter', sans-serif;
   height: auto;
   background-color: #F9FAFB;
   padding-top: 80px;
+  background-color: var(--primary-bg-200);
 
   .cards {
     display: flex;

@@ -1,17 +1,28 @@
+
+.navBar{
+  background-color: var(--primary-bg-100);
+  
+}
+
+.nav-link{
+  color: #6B7280;
+
+}
+
 .custom-active {
   background-color: #AB7ABF;
   color: #ffffff;
-  // box-shadow: 0 2px 2px #a36cb19d ;
-  border-radius: 6px;
+  border-radius: 5px;
 
   .navlink{
     color: #ffffff;
   }
 }
+ 
 
 .custom-button {
   background-color: var(--primary-color);
-  color: var(--text-secondary-color);
+  color: var( --secondary-color);
   border-radius: 8px;
   font-weight: 500;
   transition: background-color 0.3s ease;
@@ -24,4 +35,28 @@
 .logoImg{
   width: 160px;
   height: 65px;
+}
+
+
+#theme-switch {
+  width: auto;
+  height: auto;
+  background: transparent; /* optional: remove default btn background */
+  border: none;     /* optional: remove border */
+}
+
+#theme-switch svg {
+  fill: var(--text-primary-color); /* control color with CSS */
+}
+
+#theme-switch svg:last-child {
+  display: none; /* hide moon by default */
+}
+
+.theme-dark #theme-switch svg:first-child {
+  display: none; /* hide sun in dark mode */
+}
+
+.theme-dark #theme-switch svg:last-child {
+  display: block; /* show moon in dark mode */
 }
