@@ -46,12 +46,14 @@
       border: 1px solid;
       border-radius: 8px;
       cursor: pointer;
-     
+       transition: transform 0.5s ease;
       
     }
 
     .btn-style:hover {
-      transition: background-color 0.5s ease;
+      transition: background-color 0.3s ease-in;
+       //box-shadow:0px 5px 20px -3px #444244  ;
+        transform: translateX(0px)translateY(-1px);
     }
 
     /* ===== Color button styles remain unchanged ===== */
